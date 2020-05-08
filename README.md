@@ -1,4 +1,6 @@
-#Calculator
+# Calculator
 
-###HTML, CSS and JS
+### HTML, CSS and JS
+
+https://lordshenk.github.io/calculator/
 
