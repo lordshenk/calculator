@@ -118,7 +118,7 @@ function animate() {
 		}
 		screen[0].children[0].style.top = --countPx + 'px';
 		screen[0].children[1].style.top = --countPx + 'px';
-	}, 5);
+	}, 10);
 	
 }
 

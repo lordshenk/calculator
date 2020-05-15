@@ -5,6 +5,7 @@
   color: white;
   font-family: sans-serif;
   user-select: none;
+  overflow: hidden;
 }
 .container {
   display: flex;
@@ -31,8 +32,8 @@
   z-index: 999;
   width: 25%;
   height: 60%;
-  background: #fff3;
-  backdrop-filter: blur(10px);
+  background: #424242;
+  /*backdrop-filter: blur(10px);*/
   box-shadow: 0px 10px 40px -15px rgba(0, 0, 0, .7);
   border-radius: 5px;
 }
@@ -45,14 +46,14 @@
 }
 
 .screen .cal-screen {
-  background: #fff1;
+  background: #fff;
   position: relative;
-  top: 10%;
+  /*top: 10%;*/
   margin: auto;
-  width: 90%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
-  border-radius: 20px;
+  /*border-radius: 20px;*/
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -65,10 +66,13 @@
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: #000;
+  font-size: 24px
 }
 .screen .cal-screen p:first-child {
   opacity: .5;
   font-size: 18px;
+ 
 }
 
 .keyboard {
@@ -88,7 +92,6 @@
   align-items: center;
   border-radius: 5px;
   box-sizing: border-box;
-  transition: all 0.1s;
 }
 .keyboard .negative {
   margin-left: 50%;
@@ -104,7 +107,6 @@
   border: none;
   outline: none;
 }
-<<<<<<< HEAD
 
 @media (max-width: 1200px) {
   .cal {
@@ -148,6 +150,8 @@
   .screen .cal-screen p:last-child {
     font-size: 15px;
   }
+  .screen .cal-screen {
+    padding: 3px 5px;
+  }
 }
-=======
->>>>>>> a1398737f1c0176ee4afefbdd8a7556de81634d5
+
