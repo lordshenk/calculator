@@ -33,7 +33,7 @@
   height: 60%;
   background: #fff3;
   backdrop-filter: blur(10px);
-  box-shadow: 0px 10px 40px -15px rgba(117,116,117,1);
+  box-shadow: 0px 10px 40px -15px rgba(0, 0, 0, .7);
   border-radius: 5px;
 }
 
@@ -104,6 +104,7 @@
   border: none;
   outline: none;
 }
+<<<<<<< HEAD
 
 @media (max-width: 1200px) {
   .cal {
@@ -148,3 +149,5 @@
     font-size: 15px;
   }
 }
+=======
+>>>>>>> a1398737f1c0176ee4afefbdd8a7556de81634d5
